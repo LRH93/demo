@@ -62,9 +62,17 @@ git push
 
 		git push (后面默认用第一次那个)
 
-		git remote add origin2 git@github.com:xiaoxiaohanhanhan/gitStuy.git
 
-		git push -u origin2 master
+## 如何在github上已有的工程上接着开发
 
+		git clone git@github.com:xiaoxiaohanhanhan/demo.git
 		
-		
+		cd demo
+
+		(做你的修改)
+
+		git add .
+
+		git commit -m "提交说明"
+
+		git push				
