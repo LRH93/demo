@@ -1,4 +1,4 @@
-## 备注
+## 让你的PC具备推送的功能
 2017年11月19日，我在学习git指令
 
 git config --global user.name "xiaoxiaohanhanhan"
@@ -8,6 +8,8 @@ git config --globa user.email "627342660@qq.com"
 ssh-keygen -t rsa -b 4096 -C "627342660@qq.com"
 
 cat ~/.ssh/id_rsa.pub
+
+通过网页，添加你的ssh
 
 ## 添加远程仓库的信息
 git remote add origin git@github.com:xiaoxiaohanhanhan/maven_repository.git
@@ -58,7 +60,11 @@ git push
 
 		git push -u origin master (第一次)
 
-		git push
+		git push (后面默认用第一次那个)
+
+		git remote add origin2 git@github.com:xiaoxiaohanhanhan/gitStuy.git
+
+		git push -u origin2 master
 
 		
 		
