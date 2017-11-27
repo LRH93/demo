@@ -43,11 +43,22 @@ git push
 1. 在你的github账号上，添加你电脑的ｓｓｈ信息
 
 2. 在你的文件夹下面
+
 		cd demo
+
 		git init
+
 		git add .
+
 		git commit -m "第一个版本"
+
+		（可添加多个对应远程仓库，git remote -v 查看）
+
 		git remote add origin git@github.com:xiaoxiaohanhanhan/demo.git
-		
+
+		git push -u origin master (第一次)
+
+		git push
+
 		
 		

@@ -48,6 +48,6 @@ git push
 		git add .
 		git commit -m "第一个版本"
 		git remote add origin git@github.com:xiaoxiaohanhanhan/demo.git
-		(本地提交等。。。)
+		
 		
 		
