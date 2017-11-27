@@ -77,3 +77,16 @@ git push
 		git commit -m "提交说明"
 
 		git push				
+
+
+## vim .gitignore 忽略你的文件,不管你了
+		
+		#忽略以～结尾的文件
+		*~
+
+## 从工程中删除文件
+
+		rm 你要删除的文件
+		git rm 你要删除的文件
+		git commit -m "删除文件"
+		git push
