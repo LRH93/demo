@@ -65,6 +65,7 @@ git push
 
 ## 如何在github上已有的工程上接着开发
 1. 在你的github账号上，添加你电脑的ｓｓｈ信息,让你的PC具备推送的功能
+
 		git clone git@github.com:xiaoxiaohanhanhan/demo.git
 		
 		cd demo
