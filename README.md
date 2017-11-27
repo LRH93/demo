@@ -1,0 +1,53 @@
+## 备注
+2017年11月19日，我在学习git指令
+
+git config --global user.name "xiaoxiaohanhanhan"
+
+git config --globa user.email "627342660@qq.com"
+ 
+ssh-keygen -t rsa -b 4096 -C "627342660@qq.com"
+
+cat ~/.ssh/id_rsa.pub
+
+## 添加远程仓库的信息
+git remote add origin git@github.com:xiaoxiaohanhanhan/maven_repository.git
+
+## 删除远程仓库的信息
+git remove remove
+
+## 查看远程仓库的信息
+git remote -v
+
+如果是git clone git@github.com:xiaoxiaohanhanhan/gitStuy.git 下来的，自动绑定了远程仓库
+
+root@liuruohan-Inspiron-5447:~/gitStuy# git remote -v
+
+origin  git@github.com:xiaoxiaohanhanhan/gitStuy.git (fetch)
+
+origin  git@github.com:xiaoxiaohanhanhan/gitStuy.git (push)
+
+
+git remote remove origin
+
+git remote add origin git@github.com:xiaoxiaohanhanhan/gitStuy
+
+git push -u origin master
+
+git push
+
+## mahua.jser.me
+
+		格式
+
+## 如何把一个本地工程添加到github上
+1. 在你的github账号上，添加你电脑的ｓｓｈ信息
+
+2. 在你的文件夹下面
+		cd demo
+		git init
+		git add .
+		git commit -m "第一个版本"
+		git remote add origin git@github.com:xiaoxiaohanhanhan/demo.git
+		
+		
+		
